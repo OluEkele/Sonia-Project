@@ -248,7 +248,7 @@ body{
 
 
 #image1{
-    background: url(/image/background/slide1.jpg.webp);
+    background: url(/Sonia-Project/image/background/slide1.jpg.webp);
     z-index: 3;
     height: 100vh; 
     background-position: center;
@@ -257,19 +257,19 @@ body{
     background-position-x: center;
 }
 #image2{
-    background-image: url(/image/background/slide2.jpg.webp);
+    background-image: url(/Sonia-Project/image/background/slide2.jpg.webp);
     z-index: 3;
     height: 100vh; 
     
 }
 #image3{
-    background-image: url(/image/background/slide3.jpg.webp);
+    background-image: url(/Sonia-Project/image/background/slide3.jpg.webp);
     z-index: 3;
     height: 100vh; 
     
 }
 #image4{
-    background-image: url(/image/background/slide4.jpg.webp);
+    background-image: url(/Sonia-Project/image/background/slide4.jpg.webp);
     z-index: 3;
     height: 100vh; 
     filter: brightness(80%);
@@ -277,27 +277,27 @@ body{
 
 
 #image5{
-    background-image: url(/image/background/slide1.jpg.webp);
+    background-image: url(/Sonia-Project/image/background/slide1.jpg.webp);
     z-index: 3;
     height: 100vh; 
     
 }
 #image6{
-    background-image: url(/image/background/slide2.jpg.webp);
+    background-image: url(/Sonia-Project/image/background/slide2.jpg.webp);
     z-index: 3;
     height: 100vh; 
     
 }
 
 #image7{
-    background-image: url(/image/background/slide3.jpg.webp);
+    background-image: url(/Sonia-Project/image/background/slide3.jpg.webp);
     z-index: 3;
     height: 100vh;
     
 }
 
 #image8{
-    background-image: url(/image/background/slide4.jpg.webp);
+    background-image: url(/Sonia-Project/image/background/slide4.jpg.webp);
     z-index: 3;
     height: 100vh;
     filter: brightness(80%);
