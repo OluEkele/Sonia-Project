@@ -50,10 +50,11 @@
     font-weight: 200;
     line-height: 25px;
     letter-spacing: 1px;
+    margin: 40px 0;
 }
 .right-content button{
     position: absolute;
-    top: 60%;
+    top: 70%;
     color: white;
     font-size: 1.6rem;
     text-align: left;

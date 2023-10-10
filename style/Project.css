@@ -46,12 +46,13 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 54px;
-    width: 16%;
+    
 }
 
 .site-icons a{
     text-decoration: none;
     color: #fff; 
+    margin-right: 30px;
 }
 .menu-bar{
     padding: 0 12px 0 25px;
@@ -97,23 +98,23 @@ body{
 }
 .pinterest:hover span{
     display: block;
-    right: 240px;
+    right: 35%;
 }
 .linkedlin:hover span{
     display: block;
-    right: 195px;
+    right: 30%;
 }
 .instagram:hover span{
     display: block;
-    right: 150px;
+    right: 25%;
 }
 .facebook:hover span{
     display: block;
-    right: 105px;
+    right: 20%;
 }
 .twitter:hover span{
     display: block;
-    right:85px;
+    right: 15%;
 }
 .link-bar{
     display: flex;

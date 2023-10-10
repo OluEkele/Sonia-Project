@@ -26,6 +26,7 @@
     position: absolute;
     top: 40%;
     left: 55%;
+    text-align: left;
 }
 .upper-nav .right-content .content a{
     color: white;
@@ -33,6 +34,7 @@
     text-decoration: none;
     letter-spacing: 5px;
     font-weight: 300;
+    text-align: left;
 }
 .upper-nav .right-content .content a:before{
     display:block;
@@ -53,7 +55,7 @@
     line-height: 25px;
     margin-bottom: 80px;
     font-weight: 200;
-    
+    text-align: left;
 }
 
 .upper-nav .right-content .content button{
@@ -64,11 +66,16 @@
     color: white;
     font-size: 1.5rem;
     text-transform: uppercase;
-
+    transition: all 0.5s ease;
+}
+.upper-nav .right-content .content button:hover{
+    background-color: #fff;
+    color: #0b0b0c;
 }
 .about-me-dot{
     position: absolute;
     right: -13%;
+    width: 30%;
     top: 25%;
     color: gray;
     filter: brightness(20%); 
@@ -128,7 +135,7 @@
 .sub-left-content p{
     font-size: 0.8rem;
     font-weight: 100px;
-    width: 600px;
+    width: 80%;
     color: rgba(0, 0, 0, 0.452);
     margin-bottom: 30px;
     line-height: 25px;
@@ -144,7 +151,7 @@
 .patience::before{
     display:block;
     content: '';
-    width: 600px;
+    width: 80%;
     font-weight: 300;
     height: 3px;
     background-color: rgb(5, 5, 5); 
@@ -158,7 +165,7 @@
     color: #fff;
     padding: 5px 10px;
     margin-top: 5px;
-    left: 33%;
+    left: 35%;
     border: none;
     outline: none;
     border-radius: 4px;
@@ -173,7 +180,7 @@
 .creative::before{
     display:block;
     content: '';
-    width: 600px;
+    width: 80%;
     font-weight: 300;
     height: 3px;
      background-color: rgb(5, 5, 5); 
@@ -185,7 +192,7 @@
     font-weight: 100;
     background-color: black;
     color: #fff;
-    left: 38%;
+    left: 40%;
     padding: 5px 10px;
     margin-top: 5px;
     border: none;
@@ -202,7 +209,7 @@
 .commited::before{
     display:block;
     content: '';
-    width: 600px;
+    width: 80%;
     font-weight: 300;
     height: 3px;
      background-color: rgb(5, 5, 5); 
@@ -216,7 +223,7 @@
     margin-top: 5px;
     background-color: black;
     color: #fff;
-    left: 41%;
+    left: 43%;
     border: none;
     outline: none;
     border-radius: 4px;
@@ -257,20 +264,21 @@
     overflow: hidden;
 }
 .right-last-nav p{
-    width: 800px;
+    width: 100%;
     padding: 100px 40px 40px 80px;
     background-color: #fff;
     font-size: 1rem;
     line-height: 40px;
     color: rgba(36, 35, 35, 0.836);
     font-weight: 100;
+    text-align: left;
 }
 .right-last-nav{
     position: absolute;
     display: flex;
     flex-direction: column;
     right: 0;
-    width: 800px;
+    width: 100%;
     top: 15%;
     background-color: #fff;
     
@@ -292,90 +300,91 @@
     align-items: center;
     gap: 20px;
     padding: 0 100px;
+    
 }
-.landscape,
-.protratis,
-.studio{
+
+.contentainer-percent{
     display: flex;
     flex-direction: column;
 
 }
-.landscape a{
-    height: 100px;
-    width: 100px;
+.landscape {
+    height: 160px;
+    width: 160px;
     position: relative;
-    padding: 40px 45px 40px 35px;
-    margin-bottom: 10px;
-}
-.landscape a::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 50%; 
-    border: 5px solid transparent;
-    background: linear-gradient(360deg, rgb(10, 10, 10) 94%, white 6%) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-    mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out;
-    mask-composite: exclude;
-}
 
-.protratis a{
-    height: 100px;
-    width: 100px;
-    position: relative;
-    padding: 40px 45px 40px 35px;
-    margin-bottom: 10px;
 }
-.protratis a::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 50%; 
-    border: 5px solid transparent;
-    background: linear-gradient(-45deg, rgb(10, 10, 10) 68%, white 32%) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-    mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out;
-    mask-composite: exclude;
+.outter{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+    padding: 20px;
 }
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.percent{
+    font-weight: 600;
 
-.protratis span{
-    padding-left: 15px;
 }
-.studio a{
-    height: 100px;
-    width: 100px;
-    position: relative;
-    padding: 40px 45px 40px 35px;
-    margin-bottom: 10px;
+.circle1{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: amin 4s linear forwards;
 }
-.studio a::after{
-    content: "";
+.circle2{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: amin2 4s linear forwards;
+}
+.circle3{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: amin3 4s linear forwards;
+}
+svg{
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 50%; 
-    border: 5px solid transparent;
-    background: linear-gradient(30deg, white 75%, rgb(10, 10, 10) 25%) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-    mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out;
-    mask-composite: exclude;
 }
-.studio span{
-    padding-left: 15px;
+@keyframes amin{
+    100%{
+        stroke-dashoffset: 80;
+    }
 }
-.percent span{
-    margin-bottom: 80px;
+@keyframes amin2{
+    100%{
+        stroke-dashoffset: 165;
+    }
+}
+@keyframes amin3{
+    100%{
+        stroke-dashoffset: 354;
+    }
+}
+.contentainer-percent span{
+    font-weight: 400;
+    padding: 10px 0;
+    margin-bottom: 10px;
 }
 
 
@@ -413,6 +422,10 @@
     text-decoration: none;
     color: #212121;
     z-index: 2;
+    cursor: pointer;
+}
+.copywrite-footer1 a:hover{
+    text-decoration: underline;
 }
 .animate-bottom {
     position: relative;
