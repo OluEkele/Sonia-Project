@@ -98,23 +98,23 @@ body{
 }
 .pinterest:hover span{
     display: block;
-    right: 35%;
+    right: 18%;
 }
 .linkedlin:hover span{
     display: block;
-    right: 30%;
+    right: 15%;
 }
 .instagram:hover span{
     display: block;
-    right: 25%;
+    right: 12%;
 }
 .facebook:hover span{
     display: block;
-    right: 20%;
+    right: 9%;
 }
 .twitter:hover span{
     display: block;
-    right: 15%;
+    right: 7%;
 }
 .link-bar{
     display: flex;

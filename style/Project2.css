@@ -203,12 +203,7 @@ body{
     display: flex;
     align-items: center;
     width: 6400px;
-    animation-direction: normal;
-    animation-duration: 10s;
-    animation-name: scrollLeft;
-    animation-delay: .5s;
-    animation-iteration-count: infinite; 
-    animation-play-state: steps(1);
+
 }
 
 @keyframes scrollLeft{
@@ -242,7 +237,12 @@ body{
     background-position-x: center;
     filter: brightness(90%);
     width: 400px;
-    
+    animation-direction: normal;
+    animation-duration: 10s;
+    animation-name: scrollLeft;
+    animation-delay: .5s;
+    animation-iteration-count: infinite; 
+    animation-play-state: steps(1);
 }
 
 
@@ -846,10 +846,10 @@ body{
     100% { -webkit-transform: rotate(360deg); }
   }
   
-  @keyframes spin {
+  /* @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-  }
+  } */
   
   /* Add animation to "page content" */
   /* .animate-bottom {
