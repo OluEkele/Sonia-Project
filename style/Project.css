@@ -201,7 +201,7 @@ body{
 /* body slide section */
 .main-body-slide{
     height: 100vh;
-    width: 3200px;
+    width: 4300px;
     overflow:hidden;
 }
 .body-slide{
@@ -222,16 +222,16 @@ body{
         transform: translate(0);
     }
     25%{
-        transform: translate(-400px);
+        transform: translate(-540px);
     }
     50%{
-        transform: translate(-800px); 
+        transform: translate(-1080px); 
     }
     75%{
-        transform: translate(-1200px);
+        transform: translate(-1620px);
     }
     100%{
-        transform: translate(-1600px); 
+        transform: translate(-2160px); 
     }
 }
 
@@ -239,7 +239,6 @@ body{
     border: none;
     outline: none;
     height: 100vh;
-    width: 400px;
     cursor: pointer;
     transition: all 0.25s ease-in-out;
     background-position: center;
@@ -325,7 +324,7 @@ body{
 .text-slide8{
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 80%;
     color: #fff;
     top: 90%;
     line-height: 25px;
@@ -503,6 +502,7 @@ body{
     line-height: 50px;
     font-weight: 300;
     z-index: 5;
+    margin-top: 60px;
 }
 .body-text strong{
     font-weight: 500;
@@ -539,7 +539,7 @@ body{
     top: 120px;
     left: 20%;
     height: 600px;
-    width: 400px;
+    width: 40%;
 
 }
 .reality-image-text{
@@ -582,7 +582,7 @@ body{
     top: 200px;
     right: 20%;
     height: 570px;
-    width: 460px;
+    width: 46%;
 
 }
 .photo-image-text{
@@ -616,7 +616,7 @@ body{
     top: 990px;
     left: 20%;
     height: 580px;
-    width: 800px;
+    width: 80%;
 
 }
 .empty-image-text{
@@ -650,7 +650,7 @@ body{
     top: 1450px;
     right: 20%;
     height: 570px;
-    width: 460px;
+    width: 46%;
 
 }
 .cloud-image-text{
@@ -692,7 +692,7 @@ body{
     top: 1870px;
     left: 19%;
     height: 620px;
-    width: 400px;
+    width: 40%;
 
 }
 .hope-image-text{
@@ -729,7 +729,7 @@ body{
     top: 2330px;
     left: 39.5%;
     height: 440px;
-    width: 300px;
+    width: 30%;
 
 }
 .mirror-image-text{
@@ -773,7 +773,7 @@ body{
     top: 2390px;
     right: 19.3%;
     height: 450px;
-    width: 300px;
+    width: 30%;
 
 }
 .future-image-text{
