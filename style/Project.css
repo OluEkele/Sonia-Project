@@ -246,6 +246,7 @@ body{
     background-repeat: no-repeat;
     background-position-x: center;
     filter: brightness(95%); 
+    margin-bottom: 40px;
 }
 
 #image1{
@@ -326,11 +327,11 @@ body{
     flex-direction: column;
     width: 80%;
     color: #fff;
+    font-size: 1.2rem;
     top: 90%;
     line-height: 25px;
     position: absolute;
     transition: all 0.25s ease-in-out;
-    filter: brightness(90%);
     z-index: 5;
     transition: .5s;
     cursor: pointer;
@@ -341,7 +342,7 @@ body{
 
 .text-head{
     margin-bottom: 30px;
-    
+    font-size: 2rem;
 }
 
 .text-head-container{
@@ -537,14 +538,14 @@ body{
 .reality-image{
     position: absolute;
     top: 120px;
-    left: 20%;
+    left: 15%;
     height: 600px;
-    width: 40%;
+    width: 28%;
 
 }
 .reality-image-text{
     position: absolute;
-    left: 20%;
+    left: 15%;
     top: 730px;
     color: #212529f1;
     z-index: -1;
@@ -573,21 +574,21 @@ body{
 }
 .dot-image2{
     position: absolute;
-    right: 10%;
+    right: 6%;
     top: 200px;
     z-index: -1;
 }
 .photo-image{
     position: absolute;
     top: 200px;
-    right: 20%;
+    right: 12%;
     height: 570px;
-    width: 46%;
+    width: 38%;
 
 }
 .photo-image-text{
     position: absolute;
-    right: 34.6%;
+    right: 35%;
     top: 790px;
     color: #212529f1;
     z-index: -1;
@@ -616,7 +617,7 @@ body{
     top: 990px;
     left: 20%;
     height: 580px;
-    width: 80%;
+    width: 50%;
 
 }
 .empty-image-text{
@@ -650,7 +651,7 @@ body{
     top: 1450px;
     right: 20%;
     height: 570px;
-    width: 46%;
+    width: 30%;
 
 }
 .cloud-image-text{
@@ -692,7 +693,7 @@ body{
     top: 1870px;
     left: 19%;
     height: 620px;
-    width: 40%;
+    width: 25%;
 
 }
 .hope-image-text{
@@ -727,9 +728,9 @@ body{
 .mirror-image{
     position: absolute;
     top: 2330px;
-    left: 39.5%;
+    left: 40%;
     height: 440px;
-    width: 30%;
+    width: 20%;
 
 }
 .mirror-image-text{
@@ -763,7 +764,7 @@ body{
 }
 .dot-image7{
     position: absolute;
-    right: 8%;
+    right: 10%;
     top: 2450px;
     z-index: -1;
     width: 300px;
@@ -771,14 +772,14 @@ body{
 .future-image{
     position: absolute;
     top: 2390px;
-    right: 19.3%;
+    right: 15%;
     height: 450px;
-    width: 30%;
+    width: 20%;
 
 }
 .future-image-text{
     position: absolute;
-    right: 28.5%;
+    right: 25.3%;
     top: 2850px;
     color: #212529f1;
     z-index: -1;
@@ -806,7 +807,6 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    
 }
 .conclusion-text{
     width: 65%;
